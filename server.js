@@ -8,7 +8,7 @@
 
 const express = require('express');
 const app = express(); //express is a package to link thiings on the web
-const server = app.listen(3000); //listen in port number 3000
+const server = app.listen(process.env.PORT || 3000); //listen in port number 3000
 
 app.use(express.static("public")); //says to use static files
 

@@ -7,7 +7,7 @@
 
 //sketch is made of 2 functions the setup and draw
 
-const socket = io.connect('10.24.229.101:3000'); //in-out protocol is going to connect to a specific adress in our local network
+const socket = io.connect(); //in-out protocol is going to connect to a specific adress in our local network
 
 function setup() {
     createCanvas(400,400); //like size in processing
