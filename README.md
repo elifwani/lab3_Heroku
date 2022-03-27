@@ -1,5 +1,7 @@
 # THIS IS MY TECHNICAL README - MY "HOW"
 
+Open two different tabs to test it by yourself!
+
 Initially, to get the server running I used the server.py file our professor provided for us to use and had setup the "This website has been visited {{ count }} times". However, I was up to the challenge and remembered that I had used node once before. 
 
 The ```server.js``` file contains all the server side of things. It lays out the rules for communication, looks out for new connections, and for the way they commnicate.
